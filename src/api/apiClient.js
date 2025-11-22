@@ -12,9 +12,9 @@ const getAPIBase = () => {
   }
 
 return {
-  USERS: "https://users-service-func.centralus-01.azurewebsites.net/api/users",
-  ORDERS: "https://orders-service-func.centralus-01.azurewebsites.net/api/orders",
-  NOTIFY: "https://notifications-service-func.centralus-01.azurewebsites.net/api/notify",
+  USERS: "https://users-service-func-fffretdjdmcefjet.centralus-01.azurewebsites.net/api/users",
+  ORDERS: "https://orders-service-func-hwgafmebaxc3cgc3.centralus-01.azurewebsites.net/api/orders",
+  NOTIFY: "https://notifications-service-func-a6cyavhebtfeasek.centralus-01.azurewebsites.net/api/notify"
 };
 };
 
