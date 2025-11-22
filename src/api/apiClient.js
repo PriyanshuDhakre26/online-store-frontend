@@ -11,11 +11,11 @@ const getAPIBase = () => {
     };
   }
 
-  return {
-    USERS: "https://users-service-func.centralus.azurewebsites.net/api/users",
-    ORDERS: "https://orders-service-func.centralus.azurewebsites.net/api/orders",
-    NOTIFY: "https://notifications-service-func.centralus.azurewebsites.net/api/notify",
-  };
+ return {
+  USERS: "https://users-service-func.azurewebsites.net/api/users",
+  ORDERS: "https://orders-service-func.azurewebsites.net/api/orders",
+  NOTIFY: "https://notifications-service-func.azurewebsites.net/api/notify",
+};
 };
 
 export const API_BASE = getAPIBase();
